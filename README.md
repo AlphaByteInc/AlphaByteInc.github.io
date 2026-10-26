@@ -7,6 +7,11 @@
 - 合格タイマー: https://alphabyteinc.github.io/goukaku-timer/
   - プライバシーポリシー: https://alphabyteinc.github.io/goukaku-timer/privacy.html
   - サポート: https://alphabyteinc.github.io/goukaku-timer/support.html
+- 生成AIパスポート 問題集: https://alphabyteinc.github.io/genai-passport/
+  - プライバシーポリシー: https://alphabyteinc.github.io/genai-passport/privacy.html
+  - サポート: https://alphabyteinc.github.io/genai-passport/support.html
+  - 特定商取引法に基づく表記: https://alphabyteinc.github.io/genai-passport/tokushoho.html
+  - 正本は shikaku-quiz リポジトリの docs/legal/（1ファイル完結の HTML。assets/style.css は使わない）
 
 ビルド不要の静的 HTML。`.nojekyll` があるので Jekyll は通らない。
 

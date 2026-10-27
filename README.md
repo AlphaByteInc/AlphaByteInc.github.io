@@ -17,6 +17,11 @@
   - サポート: https://alphabyteinc.github.io/toukei2/support.html
   - 特定商取引法に基づく表記: https://alphabyteinc.github.io/toukei2/tokushoho.html
   - 正本は shikaku-quiz-toukei2 リポジトリの docs/legal/（生成AIパスポート版と同じ1ファイル完結の HTML）
+- G検定 問題集: https://alphabyteinc.github.io/gkentei/
+  - プライバシーポリシー: https://alphabyteinc.github.io/gkentei/privacy.html
+  - サポート: https://alphabyteinc.github.io/gkentei/support.html
+  - 特定商取引法に基づく表記: https://alphabyteinc.github.io/gkentei/tokushoho.html
+  - 正本は shikaku-quiz-gkentei リポジトリの docs/legal/（前2作と同じ1ファイル完結の HTML）
 
 ビルド不要の静的 HTML。`.nojekyll` があるので Jekyll は通らない。
 

@@ -32,6 +32,11 @@
   - サポート: https://alphabyteinc.github.io/dskentei/support.html
   - 特定商取引法に基づく表記: https://alphabyteinc.github.io/dskentei/tokushoho.html
   - 正本は shikaku-quiz-dskentei リポジトリの docs/legal/（先行作と同じ1ファイル完結の HTML）
+- 世界遺産検定2級 問題集: https://alphabyteinc.github.io/sekaiisan2/
+  - プライバシーポリシー: https://alphabyteinc.github.io/sekaiisan2/privacy.html
+  - サポート: https://alphabyteinc.github.io/sekaiisan2/support.html
+  - 特定商取引法に基づく表記: https://alphabyteinc.github.io/sekaiisan2/tokushoho.html
+  - 正本は shikaku-quiz-sekaiisan2 リポジトリの docs/legal/（先行作と同じ1ファイル完結の HTML）
 
 ビルド不要の静的 HTML。`.nojekyll` があるので Jekyll は通らない。
 

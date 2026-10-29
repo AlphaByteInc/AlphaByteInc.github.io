@@ -47,6 +47,12 @@
   - Support: https://alphabyteinc.github.io/servsafe/support.html
   - 特定商取引法に基づく表記は置かない（米国ストア向けの英語アプリで、日本では配信しないため）
   - 正本は shikaku-quiz-servsafe リポジトリの docs/legal/
+- Life & Health Insurance Exam Prep（英語・米国向け。v1 は General＋Texas 州パック）: https://alphabyteinc.github.io/usinsurance/
+  - Privacy Policy: https://alphabyteinc.github.io/usinsurance/privacy.html
+  - Terms of Use: https://alphabyteinc.github.io/usinsurance/terms.html
+  - Support: https://alphabyteinc.github.io/usinsurance/support.html
+  - 特定商取引法に基づく表記は置かない（米国ストア向けの英語アプリで、日本では配信しないため）
+  - 正本は shikaku-quiz-usinsurance リポジトリの docs/legal/
 
 ビルド不要の静的 HTML。`.nojekyll` があるので Jekyll は通らない。
 

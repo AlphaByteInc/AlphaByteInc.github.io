@@ -58,6 +58,12 @@
   - Support: https://alphabyteinc.github.io/usinsurance/support.html
   - 特定商取引法に基づく表記は置かない（米国ストア向けの英語アプリで、日本では配信しないため）
   - 正本は shikaku-quiz-usinsurance リポジトリの docs/legal/
+- Part 107 Exam Prep（英語・米国向け。FAA Remote Pilot 知識試験）: https://alphabyteinc.github.io/part107/
+  - Privacy Policy: https://alphabyteinc.github.io/part107/privacy.html
+  - Terms of Use: https://alphabyteinc.github.io/part107/terms.html
+  - Support: https://alphabyteinc.github.io/part107/support.html
+  - 特定商取引法に基づく表記は置かない（米国ストア向けの英語アプリで、日本では配信しないため）
+  - 正本は part107-quiz リポジトリの docs/legal/
 
 ビルド不要の静的 HTML。`.nojekyll` があるので Jekyll は通らない。
 

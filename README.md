@@ -42,6 +42,11 @@
   - サポート: https://alphabyteinc.github.io/cosme/support.html
   - 特定商取引法に基づく表記: https://alphabyteinc.github.io/cosme/tokushoho.html
   - 正本は shikaku-quiz-cosme リポジトリの docs/legal/（先行作と同じ1ファイル完結の HTML）
+- 運行管理者（貨物）問題集: https://alphabyteinc.github.io/unkou/
+  - プライバシーポリシー: https://alphabyteinc.github.io/unkou/privacy.html
+  - サポート: https://alphabyteinc.github.io/unkou/support.html
+  - 特定商取引法に基づく表記: https://alphabyteinc.github.io/unkou/tokushoho.html
+  - 正本は shikaku-quiz-unkou リポジトリの docs/legal/（先行作と同じ1ファイル完結の HTML）
 - ServSafe Manager Exam Prep（英語・米国向け）: https://alphabyteinc.github.io/servsafe/
   - Privacy Policy: https://alphabyteinc.github.io/servsafe/privacy.html
   - Support: https://alphabyteinc.github.io/servsafe/support.html

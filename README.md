@@ -37,6 +37,11 @@
   - サポート: https://alphabyteinc.github.io/sekaiisan2/support.html
   - 特定商取引法に基づく表記: https://alphabyteinc.github.io/sekaiisan2/tokushoho.html
   - 正本は shikaku-quiz-sekaiisan2 リポジトリの docs/legal/（先行作と同じ1ファイル完結の HTML）
+- 日本化粧品検定 問題集: https://alphabyteinc.github.io/cosme/
+  - プライバシーポリシー: https://alphabyteinc.github.io/cosme/privacy.html
+  - サポート: https://alphabyteinc.github.io/cosme/support.html
+  - 特定商取引法に基づく表記: https://alphabyteinc.github.io/cosme/tokushoho.html
+  - 正本は shikaku-quiz-cosme リポジトリの docs/legal/（先行作と同じ1ファイル完結の HTML）
 
 ビルド不要の静的 HTML。`.nojekyll` があるので Jekyll は通らない。
 

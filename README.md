@@ -42,6 +42,11 @@
   - サポート: https://alphabyteinc.github.io/cosme/support.html
   - 特定商取引法に基づく表記: https://alphabyteinc.github.io/cosme/tokushoho.html
   - 正本は shikaku-quiz-cosme リポジトリの docs/legal/（先行作と同じ1ファイル完結の HTML）
+- ServSafe Manager Exam Prep（英語・米国向け）: https://alphabyteinc.github.io/servsafe/
+  - Privacy Policy: https://alphabyteinc.github.io/servsafe/privacy.html
+  - Support: https://alphabyteinc.github.io/servsafe/support.html
+  - 特定商取引法に基づく表記は置かない（米国ストア向けの英語アプリで、日本では配信しないため）
+  - 正本は shikaku-quiz-servsafe リポジトリの docs/legal/
 
 ビルド不要の静的 HTML。`.nojekyll` があるので Jekyll は通らない。
 

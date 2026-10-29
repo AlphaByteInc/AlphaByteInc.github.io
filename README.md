@@ -27,6 +27,11 @@
   - サポート: https://alphabyteinc.github.io/aroma/support.html
   - 特定商取引法に基づく表記: https://alphabyteinc.github.io/aroma/tokushoho.html
   - 正本は shikaku-quiz-aroma リポジトリの docs/legal/（先行3作と同じ1ファイル完結の HTML）
+- DS検定 問題集: https://alphabyteinc.github.io/dskentei/
+  - プライバシーポリシー: https://alphabyteinc.github.io/dskentei/privacy.html
+  - サポート: https://alphabyteinc.github.io/dskentei/support.html
+  - 特定商取引法に基づく表記: https://alphabyteinc.github.io/dskentei/tokushoho.html
+  - 正本は shikaku-quiz-dskentei リポジトリの docs/legal/（先行作と同じ1ファイル完結の HTML）
 
 ビルド不要の静的 HTML。`.nojekyll` があるので Jekyll は通らない。
 

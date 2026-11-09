@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support | AgenTodo</title>
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="alternate" hreflang="ja" href="support.html">
+<style>
+  :root { color-scheme: light; --fg:#1f2328; --muted:#59636e; --line:#d8dee4; --accent:#0969da; --bg:#ffffff; --soft:#f6f8fa; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",Meiryo,sans-serif; font-size:16px; line-height:1.8; -webkit-text-size-adjust:100%; }
+  main { max-width:720px; margin:0 auto; padding:24px 20px 48px; }
+  h1 { font-size:1.4rem; line-height:1.4; margin:0 0 4px; }
+  h2 { font-size:1.1rem; margin:32px 0 8px; padding-bottom:4px; border-bottom:1px solid var(--line); }
+  h3 { font-size:1rem; margin:20px 0 4px; }
+  p, ul, ol { margin:8px 0; }
+  ul, ol { padding-left:1.4em; }
+  a { color:var(--accent); word-break:break-all; }
+  .app { color:var(--muted); margin:0 0 24px; }
+  .lang { text-align:right; font-size:.9rem; margin:0 0 8px; }
+  .head { display:flex; align-items:center; gap:12px; margin:0 0 4px; }
+  .head img { width:48px; height:48px; border-radius:11px; border:1px solid var(--line); }
+  .note { background:var(--soft); border:1px solid var(--line); border-radius:8px; padding:12px 16px; margin:16px 0; }
+  table { width:100%; border-collapse:collapse; margin:16px 0; }
+  th, td { border:1px solid var(--line); padding:10px 12px; text-align:left; vertical-align:top; }
+  th { background:var(--soft); width:32%; font-weight:600; }
+  @media (max-width:560px) {
+    th, td { display:block; width:100%; border-top:none; }
+    th { border-top:1px solid var(--line); }
+  }
+  nav { margin-top:40px; padding-top:16px; border-top:1px solid var(--line); font-size:.9rem; }
+  nav a { margin-right:16px; }
+  footer { color:var(--muted); font-size:.85rem; margin-top:16px; }
+</style>
+</head>
+<body>
+<main>
+<p class="lang"><a href="support.html" lang="ja">日本語</a></p>
+<div class="head"><img src="icon.png" alt=""><h1>Support</h1></div>
+<p class="app">AgenTodo (iPhone, iPad and Mac app)</p>
+
+<p>AgenTodo is a to-do app that lets you hand your to-dos to AI agents. It supports widgets, adding by voice and Siri, and shows request progress in Live Activities on the Lock Screen. You can connect Claude Code, Codex, Gemini or Cursor on your own Mac, or webhook destinations you set up yourself (such as Grok Bot or Muse). It also works as a plain to-do app with no AI connected. It is free, with no ads and no in-app purchases.</p>
+<div class="note">The app's interface is currently in Japanese.</div>
+
+<h2>FAQ</h2>
+
+<h3>Can I use it without a Mac?</h3>
+<p>Yes. To-dos, free notes, widgets, voice input and the calendar integration work on iPhone and iPad alone. A Mac is only needed if you want AI on your Mac to do the work.</p>
+
+<h3>How do I connect my Mac?</h3>
+<ol>
+<li>Install the Mac version of AgenTodo (macOS 26 or later) on your Mac.</li>
+<li>On iPhone, tap "..." at the top right, then Settings (設定), Agent Connections (エージェント接続), Add Computer (パソコンを追加), Send to Mac (Mac に送る). Send the link to your Mac by AirDrop, Handoff or QR code. The link works once, for 10 minutes.</li>
+<li>On the Mac, click "Set up this Mac" (このMacをセットアップ). It installs Node.js and the runner if needed, and finds and registers Claude Code, Codex, Gemini and Cursor on the Mac.</li>
+<li>Sign in to each AI tool on your Mac with your own account from its provider. Fees depend on your plan with each provider.</li>
+</ol>
+<p>You can check a connected Mac on the Agent Connections screen and remove it at any time with "Remove this computer" (このパソコンを外す).</p>
+
+<h3>What does the AI do on my Mac?</h3>
+<p>Depending on your request, the AI tool on your Mac may create or edit files and run commands. It runs with your account and permissions. Back up important folders and check the working folder and permissions before use.</p>
+
+<h3>Is my voice or email sent anywhere?</h3>
+<p>Speech recognition and the AI that suggests to-dos from your voice, calendar and email run only on your device. Calendar events and Gmail messages are never sent to our servers. To-dos and notes you save are stored on our servers so they sync between your devices. See the <a href="privacy-en.html">Privacy Policy</a> for details.</p>
+
+<h3>"Organize and add" is not available</h3>
+<p>Organizing what you said requires iOS 26 or later on an Apple Intelligence capable device with Apple Intelligence turned on. Otherwise, the transcript is added as a single to-do. You can check the status under "..." then Settings, "Voice organizing" (音声の整理).</p>
+
+<h3>How do I turn off Live Activities?</h3>
+<p>Go to "..." then Settings, "Notifications and Lock Screen" (通知とロック画面), and turn off "Live Activities" (ライブアクティビティ).</p>
+
+<h3>How do I delete my account?</h3>
+<p>Tap "..." at the top right, then Account (アカウント), then Delete Account (アカウントを削除). Your account and all of your data on our servers (to-dos, notes, attachments, requests and results, connected computers, and so on) are deleted. This cannot be undone. After deletion, the runner on your Mac can no longer connect to our servers. To remove it from your Mac as well, delete the Mac app.</p>
+
+<h3>I got a new phone</h3>
+<p>Sign in on the new device with the same method, and your to-dos and notes will appear.</p>
+
+<h2>Contact</h2>
+<table>
+<tr><th>Email</th><td><a href="mailto:taishi.dev@gmail.com">taishi.dev@gmail.com</a></td></tr>
+<tr><th>Operator</th><td>AlphaByte, Inc. (株式会社アルファバイト)</td></tr>
+</table>
+<p>Please include your device model, OS version and app version so we can help you faster. Replies may take a few days. You can write to us in English or Japanese.</p>
+
+<nav>
+<a href="privacy-en.html">Privacy Policy</a>
+<a href="terms-en.html">Terms of Use</a>
+</nav>
+<footer>© 2026 AlphaByte, Inc.</footer>
+</main>
+</body>
+</html>

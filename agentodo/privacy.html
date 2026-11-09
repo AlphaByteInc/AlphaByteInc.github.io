@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー｜AgenTodo</title>
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="alternate" hreflang="en" href="privacy-en.html">
+<style>
+  :root { color-scheme: light; --fg:#1f2328; --muted:#59636e; --line:#d8dee4; --accent:#0969da; --bg:#ffffff; --soft:#f6f8fa; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",Meiryo,sans-serif; font-size:16px; line-height:1.8; -webkit-text-size-adjust:100%; }
+  main { max-width:720px; margin:0 auto; padding:24px 20px 48px; }
+  h1 { font-size:1.4rem; line-height:1.4; margin:0 0 4px; }
+  h2 { font-size:1.1rem; margin:32px 0 8px; padding-bottom:4px; border-bottom:1px solid var(--line); }
+  h3 { font-size:1rem; margin:20px 0 4px; }
+  p, ul, ol { margin:8px 0; }
+  ul, ol { padding-left:1.4em; }
+  a { color:var(--accent); word-break:break-all; }
+  .app { color:var(--muted); margin:0 0 24px; }
+  .lang { text-align:right; font-size:.9rem; margin:0 0 8px; }
+  .head { display:flex; align-items:center; gap:12px; margin:0 0 4px; }
+  .head img { width:48px; height:48px; border-radius:11px; border:1px solid var(--line); }
+  .note { background:var(--soft); border:1px solid var(--line); border-radius:8px; padding:12px 16px; margin:16px 0; }
+  table { width:100%; border-collapse:collapse; margin:16px 0; }
+  th, td { border:1px solid var(--line); padding:10px 12px; text-align:left; vertical-align:top; }
+  th { background:var(--soft); width:32%; font-weight:600; }
+  @media (max-width:560px) {
+    th, td { display:block; width:100%; border-top:none; }
+    th { border-top:1px solid var(--line); }
+  }
+  nav { margin-top:40px; padding-top:16px; border-top:1px solid var(--line); font-size:.9rem; }
+  nav a { margin-right:16px; }
+  footer { color:var(--muted); font-size:.85rem; margin-top:16px; }
+</style>
+</head>
+<body>
+<main>
+<p class="lang"><a href="privacy-en.html" lang="en">English</a></p>
+<div class="head"><img src="icon.png" alt=""><h1>プライバシーポリシー</h1></div>
+<p class="app">AgenTodo（iPhone / iPad / Mac アプリ）</p>
+
+<p>株式会社アルファバイト（以下「当社」）は、アプリ「AgenTodo」（iPhone / iPad 版、Mac 版、Mac で動く常駐プログラム「runner」、MCP サーバーを含みます。以下「本アプリ」）における利用者の情報の取り扱いについて、次のとおり定めます。</p>
+
+<div class="note">
+<strong>要点</strong>
+<ul>
+<li>ToDo・メモ・添付ファイル・AI への依頼と結果は、利用者のアカウントにひも付けて当社が契約するクラウド（Supabase、東京リージョン）に保存し、利用者の端末どうしで同期します。</li>
+<li>音声認識と、音声やカレンダー・メールから ToDo の候補を作る AI の処理は、端末の中（Apple の端末内のモデル）だけで行います。音声や AI に渡した文を当社に送ることはありません。</li>
+<li>カレンダーの予定と Gmail のメールは端末の中で読み、当社のサーバーには送りません。</li>
+<li>広告、アクセス解析、トラッキング、他社のクラッシュ解析ツールはありません。本アプリは無料で、アプリ内課金もありません。</li>
+<li>アプリの中から、いつでもアカウントとサーバー上のすべてのデータを削除できます。</li>
+</ul>
+</div>
+
+<h2>1. 当社のサーバーに保存する情報</h2>
+<p>本アプリはアカウント制です。同期と AI への依頼のために、次の情報を利用者のアカウントにひも付けて保存します。</p>
+<h3>アカウントの情報</h3>
+<ul>
+<li>メールアドレス、利用者を識別する ID、ログイン方法（Apple でサインイン / Google でサインイン / メールアドレスとパスワード）。パスワードはハッシュ化して保存し、当社は元のパスワードを知ることができません。</li>
+<li>Apple でサインインでメールを非公開にした場合は、Apple が発行する転送用のアドレスを保存します。Google でサインインの場合は、Google から受け取るメールアドレスと表示名を保存します。</li>
+</ul>
+<h3>利用者が入力・作成した内容</h3>
+<ul>
+<li>ToDo（タイトル、メモ、期限、優先度、タグ、リスト、並び順、完了状態）とフリーノート</li>
+<li>ToDo に付けた写真・ファイル（1件50MBまで）</li>
+<li>AI エージェントへの依頼、その進み具合・ログ・結果、ToDo ごとの会話（スレッド）</li>
+<li>自動振り分けのルール、送り先とモデルの既定などの設定</li>
+<li>利用者が登録した Webhook の送り先 URL と送信キー（送信キーは暗号化して保存します）、受け口の Webhook で受け取った文や音声ファイル</li>
+</ul>
+<h3>接続したパソコンと AI の情報</h3>
+<ul>
+<li>Mac 版や runner を入れたパソコンの表示名、ホスト名、OS とモデル名、アプリと runner のバージョン、最後に接続した日時</li>
+<li>そのパソコンで使える AI（Claude Code / Codex / Gemini / Cursor など）の有無、バージョン、ログイン中のアカウントの表示（メールアドレスやプラン名）、利用量の目安（使用率、トークン数、費用の見積もり）</li>
+<li>MCP で接続したツールの名前、権限、アクセスの記録（日時、呼び出したツール、IP アドレス、User-Agent）。不正な利用を見つけて止めるために使います。</li>
+</ul>
+<h3>ロック画面の表示（ライブアクティビティ）のための情報</h3>
+<ul>
+<li>ライブアクティビティを使う場合、端末を区別する ID と、Apple のプッシュ通知サービス（APNs）が発行するトークンを保存します。アプリを閉じていても依頼の進み具合をロック画面に出すために使います。設定でオフにできます。</li>
+</ul>
+<h3>その他</h3>
+<ul>
+<li>iPhone と Mac をつなぐときの使い捨てのコードと、失敗した試行の IP アドレス（総当たりを防ぐため。短期間で消します）</li>
+</ul>
+
+<h2>2. 端末の中だけで扱う情報</h2>
+<ul>
+<li><strong>音声:</strong> マイクの音声は、端末の音声認識（端末内で処理するモード）で文字にします。録音は音声入力の画面を開いている間だけで、音声そのものは保存も送信もしません。文字にした結果は、利用者が ToDo やノートとして保存したときだけサーバーに保存されます。</li>
+<li><strong>端末内の AI:</strong> 話した内容の整理、ToDo の振り分け、状況の要約、ToDo の候補づくりには、Apple の端末内のモデル（Apple Intelligence の Foundation Models）を使います。処理は端末の中で完結し、当社や他社の AI サービスに送りません。</li>
+<li><strong>カレンダー:</strong> 許可した場合、今日から7日先までの予定を端末の中で読んで候補を作り、期限のある ToDo を予定として書き込みます。予定の内容を当社のサーバーに送りません。</li>
+<li><strong>Gmail:</strong> 利用者が連携した場合だけ、Google から読み取り専用の許可（gmail.readonly）を受け、端末から直接 Google に接続して受信メールの件名と冒頭を読み、端末内の AI で候補を作ります。メールの本文を当社のサーバーに送ったり保存したりしません。Google の認証情報は端末のキーチェーンにだけ保存します。連携はいつでも外せます。本アプリによる Google API から受け取った情報の利用は、<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>（Limited Use の要件を含む）に従います。</li>
+<li><strong>カメラ・写真・ファイル:</strong> 撮った写真や選んだファイルは、利用者が ToDo に添付したときだけアップロードします。カメラは Mac をつなぐときの QR コードの読み取りにも使います。</li>
+<li><strong>ショートカットで渡したメモ:</strong> 端末の中にだけ置き、候補づくりに使います。</li>
+</ul>
+
+<h2>3. 利用目的</h2>
+<ul>
+<li>ToDo・ノート・添付ファイルを保存し、利用者の端末やウィジェット、Mac 版と同期するため</li>
+<li>利用者が選んだ AI エージェントに依頼を届け、結果を表示するため</li>
+<li>ロック画面やダイナミックアイランドに依頼の進み具合を表示するため</li>
+<li>不正なアクセスを防ぎ、サービスの安全を保つため</li>
+<li>お問い合わせに回答するため</li>
+</ul>
+<p>当社は、これらの情報を広告、利用者の行動の追跡、プロファイリング、AI モデルの学習には使いません。</p>
+
+<h2>4. 外部のサービス</h2>
+<p>本アプリは、次の外部のサービスを使います。各社による情報の取り扱いは、それぞれのプライバシーポリシーをご確認ください。</p>
+<table>
+<tr><th>Supabase</th><td>データベース、ファイルの保存、認証、サーバー処理。データは東京リージョン（AWS ap-northeast-1）に保存します。<br><a href="https://supabase.com/privacy">https://supabase.com/privacy</a></td></tr>
+<tr><th>Apple</th><td>Apple でサインイン、ライブアクティビティのプッシュ通知（APNs）、端末内の音声認識と AI、カレンダー。<br><a href="https://www.apple.com/jp/legal/privacy/">https://www.apple.com/jp/legal/privacy/</a></td></tr>
+<tr><th>Google</th><td>Google でサインイン、Gmail の読み取り（連携した場合のみ）。<br><a href="https://policies.google.com/privacy?hl=ja">https://policies.google.com/privacy?hl=ja</a></td></tr>
+</table>
+
+<h2>5. 利用者が自分でつなぐ AI と送り先</h2>
+<p>本アプリは、利用者が自分で選んでつないだ AI や送り先に、依頼の内容（ToDo のタイトル、メモ、追加の指示、会話）を渡します。これらは利用者の指示による送信であり、送った先での取り扱いはそれぞれの提供元の規約とプライバシーポリシーによります。</p>
+<ul>
+<li><strong>利用者の Mac の AI:</strong> Mac 版と runner は、利用者の Mac に入っている Claude Code（Anthropic）、Codex（OpenAI）、Gemini CLI（Google）、Cursor などを、利用者自身のアカウントで動かします。依頼の内容は、その AI の提供元に利用者のアカウントで送られます。当社がこれらの提供元と契約して情報を渡すものではありません。</li>
+<li><strong>Webhook の送り先:</strong> 利用者が設定した URL（Grok Bot、Muse など）に、依頼と ToDo の内容を送ります。</li>
+<li><strong>MCP:</strong> 利用者が接続を作った AI ツールは、許可した範囲で利用者の ToDo を読み書きできます。接続はいつでも取り消せます。</li>
+</ul>
+
+<h2>6. 第三者への提供</h2>
+<p>当社は、法令に基づく場合を除き、利用者の同意なく個人情報を第三者に提供しません。第4項の外部サービスには、本アプリの提供に必要な範囲で取り扱いを委託しています。広告配信、アクセス解析、トラッキングのための SDK は組み込んでいません。</p>
+
+<h2>7. 安全管理</h2>
+<p>通信はすべて暗号化（HTTPS）します。データベースは行単位のアクセス制御で、利用者本人だけが自分のデータを読み書きできるようにしています。Webhook の送信キーは暗号化して保存し、端末のログイン情報や Google の認証情報は端末のキーチェーンに保存します。</p>
+
+<h2>8. 保存期間と削除</h2>
+<p>サーバーの情報は、アカウントを削除するまで保存します。ToDo やノートを削除すると、同期のための削除の記録を最大30日残したうえで消します。</p>
+<p><strong>アカウントの削除:</strong> アプリの右上の「…」>「アカウント」>「アカウントを削除」から、いつでも削除できます。削除すると、アカウントと、サーバー上のすべてのデータ（ToDo、ノート、添付ファイル、依頼と結果、会話、接続したパソコン、MCP の接続、Webhook の設定、ライブアクティビティのトークン、アクセスの記録）を削除し、元に戻せません。アプリから削除できない場合は、第11項の窓口にご連絡ください。</p>
+<p>端末の中の情報（設定、候補、キーチェーンのログイン情報など）は、アプリを削除すると消えます。本アプリが書き込んだカレンダーの予定は、設定の「連携」>「カレンダー」で連携をオフにすると削除されます。</p>
+
+<h2>9. お子様の利用</h2>
+<p>本アプリは、13歳未満のお子様を対象としていません。</p>
+
+<h2>10. 本ポリシーの改定</h2>
+<p>当社は、法令の変更や本アプリの機能の変更に応じて、本ポリシーを改定することがあります。情報の取り扱いに大きな変更がある場合は、本ページや本アプリでお知らせします。改定後のポリシーは、本ページに掲載した時点から効力を持ちます。</p>
+
+<h2>11. お問い合わせ</h2>
+<p>本ポリシーや、保存している情報の開示・訂正・削除のご依頼は、次の窓口までご連絡ください。</p>
+<table>
+<tr><th>事業者</th><td>株式会社アルファバイト</td></tr>
+<tr><th>所在地</th><td>〒107-0062 東京都港区南青山3丁目1番36号 青山丸竹ビル6F</td></tr>
+<tr><th>代表者</th><td>山崎 大志</td></tr>
+<tr><th>メールアドレス</th><td><a href="mailto:taishi.dev@gmail.com">taishi.dev@gmail.com</a></td></tr>
+</table>
+
+<p>制定日・最終更新日: 2026年11月9日</p>
+
+<nav>
+<a href="support.html">サポート</a>
+<a href="terms.html">利用規約</a>
+</nav>
+<footer>© 2026 株式会社アルファバイト</footer>
+</main>
+</body>
+</html>

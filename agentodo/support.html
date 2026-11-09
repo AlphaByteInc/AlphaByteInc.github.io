@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>サポート｜AgenTodo</title>
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="alternate" hreflang="en" href="support-en.html">
+<style>
+  :root { color-scheme: light; --fg:#1f2328; --muted:#59636e; --line:#d8dee4; --accent:#0969da; --bg:#ffffff; --soft:#f6f8fa; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",Meiryo,sans-serif; font-size:16px; line-height:1.8; -webkit-text-size-adjust:100%; }
+  main { max-width:720px; margin:0 auto; padding:24px 20px 48px; }
+  h1 { font-size:1.4rem; line-height:1.4; margin:0 0 4px; }
+  h2 { font-size:1.1rem; margin:32px 0 8px; padding-bottom:4px; border-bottom:1px solid var(--line); }
+  h3 { font-size:1rem; margin:20px 0 4px; }
+  p, ul, ol { margin:8px 0; }
+  ul, ol { padding-left:1.4em; }
+  a { color:var(--accent); word-break:break-all; }
+  .app { color:var(--muted); margin:0 0 24px; }
+  .lang { text-align:right; font-size:.9rem; margin:0 0 8px; }
+  .head { display:flex; align-items:center; gap:12px; margin:0 0 4px; }
+  .head img { width:48px; height:48px; border-radius:11px; border:1px solid var(--line); }
+  .note { background:var(--soft); border:1px solid var(--line); border-radius:8px; padding:12px 16px; margin:16px 0; }
+  table { width:100%; border-collapse:collapse; margin:16px 0; }
+  th, td { border:1px solid var(--line); padding:10px 12px; text-align:left; vertical-align:top; }
+  th { background:var(--soft); width:32%; font-weight:600; }
+  @media (max-width:560px) {
+    th, td { display:block; width:100%; border-top:none; }
+    th { border-top:1px solid var(--line); }
+  }
+  nav { margin-top:40px; padding-top:16px; border-top:1px solid var(--line); font-size:.9rem; }
+  nav a { margin-right:16px; }
+  footer { color:var(--muted); font-size:.85rem; margin-top:16px; }
+</style>
+</head>
+<body>
+<main>
+<p class="lang"><a href="support-en.html" lang="en">English</a></p>
+<div class="head"><img src="icon.png" alt=""><h1>サポート</h1></div>
+<p class="app">AgenTodo（iPhone / iPad / Mac アプリ）</p>
+
+<p>AgenTodo は、書いた ToDo を AI エージェントに任せられる ToDo アプリです。ウィジェット、音声での追加、Siri に対応し、依頼の進み具合はロック画面のライブアクティビティで確認できます。AI は、自分の Mac の Claude Code・Codex・Gemini・Cursor や、自分で設定した Webhook の送り先（Grok Bot・Muse など）につなげます。AI をつながずに、ふつうの ToDo アプリとしても使えます。無料で、広告やアプリ内課金はありません。</p>
+
+<h2>よくある質問</h2>
+
+<h3>Mac はなくても使えますか？</h3>
+<p>使えます。ToDo、フリーノート、ウィジェット、音声での追加、カレンダー連携は iPhone / iPad だけで使えます。Mac は、Mac の AI に作業を任せたいときだけ必要です。</p>
+
+<h3>Mac をつなぐには？</h3>
+<ol>
+<li>Mac に Mac 版の AgenTodo（macOS 26 以降）を入れます。</li>
+<li>iPhone で、右上の「…」>「設定」>「エージェント接続」>「パソコンを追加」>「Mac に送る」をタップし、AirDrop・Handoff・QR コードのどれかで Mac にリンクを送ります（リンクは10分間・1回だけ有効です）。</li>
+<li>Mac で「このMacをセットアップ」を押します。必要な Node.js と runner を入れ、Mac にある Claude Code・Codex・Gemini・Cursor を見つけて登録します。</li>
+<li>AI のツールは、それぞれの提供元のアカウントで Mac にログインしておいてください。利用料金はそれぞれの提供元の契約によります。</li>
+</ol>
+<p>つないだ Mac は「エージェント接続」の画面で状態を確認でき、「このパソコンを外す」でいつでも外せます。</p>
+
+<h3>AI は私の Mac で何をしますか？</h3>
+<p>依頼した内容に応じて、Mac の AI ツールがファイルを作ったり書き換えたり、コマンドを実行したりします。AI ツールは利用者のアカウントと権限で動きます。大切なフォルダで使う前にバックアップを取り、作業フォルダや権限を確認してください。</p>
+
+<h3>音声やメールは外に送られますか？</h3>
+<p>音声認識と、音声・カレンダー・メールから ToDo の候補を作る AI は、端末の中だけで動きます。カレンダーの予定や Gmail のメールを当社のサーバーに送ることはありません。保存した ToDo とノートは、端末どうしで同期するためにサーバーに保存します。詳しくは<a href="privacy.html">プライバシーポリシー</a>をご覧ください。</p>
+
+<h3>「整理して追加」が使えません</h3>
+<p>話した内容の整理には、iOS 26 以降、Apple Intelligence に対応した機種で、設定の Apple Intelligence がオンになっている必要があります。使えないときは、文字起こしをそのまま1件の ToDo として追加します。状態は「…」>「設定」の「音声の整理」で確認できます。</p>
+
+<h3>ライブアクティビティを止めたい</h3>
+<p>「…」>「設定」>「通知とロック画面」の「ライブアクティビティ」をオフにしてください。</p>
+
+<h3>アカウントを削除するには？</h3>
+<p>アプリの右上の「…」>「アカウント」>「アカウントを削除」をタップします。アカウントと、サーバー上のすべてのデータ（ToDo、ノート、添付ファイル、依頼と結果、接続したパソコンなど）が削除され、元に戻せません。削除したあとは、Mac の runner もサーバーにつながらなくなります。Mac からも取り除くときは、Mac 版を削除してください。</p>
+
+<h3>機種変更をしたら？</h3>
+<p>新しい端末で同じ方法でサインインすると、ToDo とノートがそのまま表示されます。</p>
+
+<h2>お問い合わせ</h2>
+<table>
+<tr><th>メールアドレス</th><td><a href="mailto:taishi.dev@gmail.com">taishi.dev@gmail.com</a></td></tr>
+<tr><th>運営</th><td>株式会社アルファバイト</td></tr>
+</table>
+<p>お問い合わせの際は、端末の機種名、OS のバージョン、アプリのバージョンを添えていただくとスムーズにご案内できます。返信まで数日かかる場合があります。</p>
+
+<nav>
+<a href="privacy.html">プライバシーポリシー</a>
+<a href="terms.html">利用規約</a>
+</nav>
+<footer>© 2026 株式会社アルファバイト</footer>
+</main>
+</body>
+</html>

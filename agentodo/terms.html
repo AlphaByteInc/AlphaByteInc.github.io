@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>利用規約｜AgenTodo</title>
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="alternate" hreflang="en" href="terms-en.html">
+<style>
+  :root { color-scheme: light; --fg:#1f2328; --muted:#59636e; --line:#d8dee4; --accent:#0969da; --bg:#ffffff; --soft:#f6f8fa; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",Meiryo,sans-serif; font-size:16px; line-height:1.8; -webkit-text-size-adjust:100%; }
+  main { max-width:720px; margin:0 auto; padding:24px 20px 48px; }
+  h1 { font-size:1.4rem; line-height:1.4; margin:0 0 4px; }
+  h2 { font-size:1.1rem; margin:32px 0 8px; padding-bottom:4px; border-bottom:1px solid var(--line); }
+  h3 { font-size:1rem; margin:20px 0 4px; }
+  p, ul, ol { margin:8px 0; }
+  ul, ol { padding-left:1.4em; }
+  a { color:var(--accent); word-break:break-all; }
+  .app { color:var(--muted); margin:0 0 24px; }
+  .lang { text-align:right; font-size:.9rem; margin:0 0 8px; }
+  .head { display:flex; align-items:center; gap:12px; margin:0 0 4px; }
+  .head img { width:48px; height:48px; border-radius:11px; border:1px solid var(--line); }
+  .note { background:var(--soft); border:1px solid var(--line); border-radius:8px; padding:12px 16px; margin:16px 0; }
+  table { width:100%; border-collapse:collapse; margin:16px 0; }
+  th, td { border:1px solid var(--line); padding:10px 12px; text-align:left; vertical-align:top; }
+  th { background:var(--soft); width:32%; font-weight:600; }
+  @media (max-width:560px) {
+    th, td { display:block; width:100%; border-top:none; }
+    th { border-top:1px solid var(--line); }
+  }
+  nav { margin-top:40px; padding-top:16px; border-top:1px solid var(--line); font-size:.9rem; }
+  nav a { margin-right:16px; }
+  footer { color:var(--muted); font-size:.85rem; margin-top:16px; }
+</style>
+</head>
+<body>
+<main>
+<p class="lang"><a href="terms-en.html" lang="en">English</a></p>
+<div class="head"><img src="icon.png" alt=""><h1>利用規約</h1></div>
+<p class="app">AgenTodo（iPhone / iPad / Mac アプリ）</p>
+
+<p>この利用規約（以下「本規約」）は、株式会社アルファバイト（以下「当社」）が提供するアプリ「AgenTodo」（iPhone / iPad 版、Mac 版、runner、MCP サーバー、関連するサーバーの機能を含みます。以下「本サービス」）の利用条件を定めるものです。本サービスを利用した時点で、本規約に同意したものとみなします。</p>
+
+<h2>第1条（本サービスの内容）</h2>
+<p>本サービスは、ToDo とメモを管理し、利用者が自分で選んでつないだ AI エージェント（利用者の Mac で動く AI、利用者が設定した Webhook の送り先、MCP で接続した AI ツールなど）に作業を依頼し、その結果を表示するサービスです。本サービスは無料で提供します。</p>
+
+<h2>第2条（アカウント）</h2>
+<ol>
+<li>利用者は、Apple でサインイン、Google でサインイン、またはメールアドレスとパスワードでアカウントを作成します。</li>
+<li>利用者は、自分の責任でログイン情報、MCP の接続トークン、Webhook の送信キーを管理するものとします。これらを使って行われた操作は、利用者本人が行ったものとみなします。</li>
+<li>利用者は、アプリの「…」>「アカウント」>「アカウントを削除」から、いつでもアカウントを削除できます。削除すると、サーバー上のデータはすべて消え、元に戻せません。</li>
+</ol>
+
+<h2>第3条（利用者が動かす AI エージェント）</h2>
+<ol>
+<li>Mac 版と runner は、利用者の Mac で、利用者が自分で入れてログインした AI ツール（Claude Code、Codex、Gemini CLI、Cursor など）を、利用者のアカウントと権限で動かします。これらの AI ツールは当社が提供するものではなく、その利用には各提供元の規約が適用され、その利用料金は利用者が負担します。</li>
+<li>AI エージェントは、依頼の内容に応じて、利用者の Mac のファイルの作成・変更・削除、コマンドの実行、外部への通信などを行うことがあります。どの AI に、どのフォルダで、どの権限で、何を依頼するかは利用者が決め、その結果について利用者が責任を負います。大切なデータは事前にバックアップしてください。</li>
+<li>Webhook の送り先や MCP で接続した AI ツールに送られた内容の取り扱いは、それぞれの提供元によります。</li>
+</ol>
+
+<h2>第4条（AI の出力について）</h2>
+<ol>
+<li>本サービスが表示する AI の出力（端末内の AI による ToDo の候補・整理・要約、AI エージェントの作業結果を含みます）は、不正確、不完全、または古い内容を含むことがあります。</li>
+<li>当社は、AI の出力の正確性、完全性、有用性、特定の目的への適合性を保証しません。重要な判断の前には、利用者が自分で内容を確認してください。</li>
+</ol>
+
+<h2>第5条（禁止事項）</h2>
+<p>利用者は、次の行為をしてはなりません。</p>
+<ul>
+<li>法令または公序良俗に反する行為、犯罪に結びつく行為</li>
+<li>他人の権利（著作権、プライバシーなど）を侵害する行為</li>
+<li>本サービスのサーバーやネットワークに過度な負荷をかける行為、不正アクセス、リバースエンジニアリングによる攻撃</li>
+<li>他人のアカウントやトークンを使う行為</li>
+<li>本サービスを使って、スパムや迷惑な送信、他人への攻撃を行う行為</li>
+<li>その他、当社が不適切と判断する行為</li>
+</ul>
+
+<h2>第6条（利用者のデータ）</h2>
+<ol>
+<li>利用者が入力・保存したデータの権利は、利用者に帰属します。</li>
+<li>当社は、本サービスの提供、同期、障害対応、不正利用の防止に必要な範囲でのみ利用者のデータを取り扱います。取り扱いの詳細は<a href="privacy.html">プライバシーポリシー</a>に定めます。</li>
+</ol>
+
+<h2>第7条（本サービスの変更・停止・終了）</h2>
+<p>当社は、事前の通知なく、本サービスの内容を変更し、または保守、障害、その他の理由で本サービスの全部または一部を停止できます。本サービスを終了するときは、相当の期間をおいて本アプリまたはウェブサイトでお知らせします。</p>
+
+<h2>第8条（利用の制限）</h2>
+<p>利用者が本規約に違反した場合、当社は事前の通知なく、本サービスの利用の制限、またはアカウントの停止・削除を行うことができます。</p>
+
+<h2>第9条（免責）</h2>
+<ol>
+<li>当社は、本サービスに不具合がないこと、データが失われないこと、本サービスが常に使えることを保証しません。</li>
+<li>当社は、AI エージェントの動作、AI の出力、外部のサービス（Supabase、Apple、Google、各 AI の提供元、利用者が設定した送り先など）の障害や仕様変更によって利用者に生じた損害について、責任を負いません。</li>
+<li>当社の責任が法令により認められる場合でも、当社に故意または重大な過失がある場合を除き、当社が負う責任は、利用者に現実に生じた通常の損害に限ります。なお、消費者契約法その他の法令により本項の定めが無効となる場合は、その法令の定めに従います。</li>
+</ol>
+
+<h2>第10条（規約の変更）</h2>
+<p>当社は、必要に応じて本規約を変更できます。変更後の規約は、本ページに掲載した時点から効力を持ちます。重要な変更は、本アプリまたは本ページでお知らせします。変更後に本サービスを利用した場合、変更に同意したものとみなします。</p>
+
+<h2>第11条（準拠法・管轄）</h2>
+<p>本規約は日本法に準拠します。本サービスに関して紛争が生じた場合は、東京地方裁判所を第一審の専属的合意管轄裁判所とします。</p>
+
+<h2>第12条（お問い合わせ）</h2>
+<table>
+<tr><th>事業者</th><td>株式会社アルファバイト</td></tr>
+<tr><th>所在地</th><td>〒107-0062 東京都港区南青山3丁目1番36号 青山丸竹ビル6F</td></tr>
+<tr><th>メールアドレス</th><td><a href="mailto:taishi.dev@gmail.com">taishi.dev@gmail.com</a></td></tr>
+</table>
+
+<p>制定日・最終更新日: 2026年11月9日</p>
+
+<nav>
+<a href="support.html">サポート</a>
+<a href="privacy.html">プライバシーポリシー</a>
+</nav>
+<footer>© 2026 株式会社アルファバイト</footer>
+</main>
+</body>
+</html>

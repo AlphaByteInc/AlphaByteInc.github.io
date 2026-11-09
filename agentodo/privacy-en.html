@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy | AgenTodo</title>
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="alternate" hreflang="ja" href="privacy.html">
+<style>
+  :root { color-scheme: light; --fg:#1f2328; --muted:#59636e; --line:#d8dee4; --accent:#0969da; --bg:#ffffff; --soft:#f6f8fa; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",Meiryo,sans-serif; font-size:16px; line-height:1.8; -webkit-text-size-adjust:100%; }
+  main { max-width:720px; margin:0 auto; padding:24px 20px 48px; }
+  h1 { font-size:1.4rem; line-height:1.4; margin:0 0 4px; }
+  h2 { font-size:1.1rem; margin:32px 0 8px; padding-bottom:4px; border-bottom:1px solid var(--line); }
+  h3 { font-size:1rem; margin:20px 0 4px; }
+  p, ul, ol { margin:8px 0; }
+  ul, ol { padding-left:1.4em; }
+  a { color:var(--accent); word-break:break-all; }
+  .app { color:var(--muted); margin:0 0 24px; }
+  .lang { text-align:right; font-size:.9rem; margin:0 0 8px; }
+  .head { display:flex; align-items:center; gap:12px; margin:0 0 4px; }
+  .head img { width:48px; height:48px; border-radius:11px; border:1px solid var(--line); }
+  .note { background:var(--soft); border:1px solid var(--line); border-radius:8px; padding:12px 16px; margin:16px 0; }
+  table { width:100%; border-collapse:collapse; margin:16px 0; }
+  th, td { border:1px solid var(--line); padding:10px 12px; text-align:left; vertical-align:top; }
+  th { background:var(--soft); width:32%; font-weight:600; }
+  @media (max-width:560px) {
+    th, td { display:block; width:100%; border-top:none; }
+    th { border-top:1px solid var(--line); }
+  }
+  nav { margin-top:40px; padding-top:16px; border-top:1px solid var(--line); font-size:.9rem; }
+  nav a { margin-right:16px; }
+  footer { color:var(--muted); font-size:.85rem; margin-top:16px; }
+</style>
+</head>
+<body>
+<main>
+<p class="lang"><a href="privacy.html" lang="ja">日本語</a></p>
+<div class="head"><img src="icon.png" alt=""><h1>Privacy Policy</h1></div>
+<p class="app">AgenTodo (iPhone, iPad and Mac app)</p>
+
+<p>AlphaByte, Inc. ("we", "us") explains here how the app "AgenTodo" (the iPhone and iPad app, the Mac app, the "runner" background program for Mac, and the MCP server; together the "App") handles your information. If this English version and the Japanese version differ, the Japanese version prevails.</p>
+
+<div class="note">
+<strong>Summary</strong>
+<ul>
+<li>Your to-dos, notes, attachments, and AI requests and results are stored with your account in our cloud provider (Supabase, Tokyo region) and synced between your devices.</li>
+<li>Speech recognition, and the AI that turns your speech, calendar and email into to-do suggestions, run only on your device (Apple's on-device models). We never receive your audio or the text given to that AI.</li>
+<li>Calendar events and Gmail messages are read on your device and are not sent to our servers.</li>
+<li>No ads, no analytics, no tracking, no third-party crash reporting. The App is free and has no in-app purchases.</li>
+<li>You can delete your account and all server data at any time from inside the App.</li>
+</ul>
+</div>
+
+<h2>1. Information stored on our servers</h2>
+<p>The App requires an account. To sync your data and deliver requests to AI agents, we store the following with your account.</p>
+<h3>Account information</h3>
+<ul>
+<li>Email address, a user ID, and your sign-in method (Sign in with Apple, Sign in with Google, or email and password). Passwords are stored hashed; we cannot see them.</li>
+<li>If you hide your email with Sign in with Apple, we store the relay address issued by Apple. With Sign in with Google, we store the email address and display name provided by Google.</li>
+</ul>
+<h3>Content you create</h3>
+<ul>
+<li>To-dos (title, notes, due date, priority, tags, lists, order, completion) and free notes</li>
+<li>Photos and files you attach to to-dos (up to 50 MB each)</li>
+<li>Requests to AI agents, their progress, logs and results, and the conversation thread of each to-do</li>
+<li>Settings such as routing rules and default destinations and models</li>
+<li>Webhook URLs and signing keys you register (keys are stored encrypted), and text or audio files received by your inbound webhook</li>
+</ul>
+<h3>Connected computers and AI tools</h3>
+<ul>
+<li>For each computer running the Mac app or runner: display name, host name, OS and model name, app and runner versions, and last connection time</li>
+<li>Which AI tools are available on that computer (such as Claude Code, Codex, Gemini, Cursor), their versions, the signed-in account label (email address or plan name), and usage estimates (percent used, token counts, estimated cost)</li>
+<li>For MCP connections you create: the client name, permissions, and an access log (time, tool called, IP address, User-Agent), used to detect and stop misuse</li>
+</ul>
+<h3>Live Activities</h3>
+<ul>
+<li>If you use Live Activities, we store a device ID and the token issued by the Apple Push Notification service (APNs) so request progress can appear on the Lock Screen while the App is closed. You can turn this off in Settings.</li>
+</ul>
+<h3>Other</h3>
+<ul>
+<li>One-time codes used to pair an iPhone with a Mac, and the IP address of failed attempts (to prevent brute force; deleted after a short period)</li>
+</ul>
+
+<h2>2. Information handled only on your device</h2>
+<ul>
+<li><strong>Audio:</strong> Microphone audio is converted to text by the device's on-device speech recognition. Recording happens only while a voice input screen is open, and the audio itself is neither stored nor sent. The text is stored on our servers only when you save it as a to-do or note.</li>
+<li><strong>On-device AI:</strong> Organizing what you said, routing to-dos, summarizing status and suggesting to-dos use Apple's on-device model (Apple Intelligence Foundation Models). Processing stays on the device and is not sent to us or to any other AI service.</li>
+<li><strong>Calendar:</strong> If you allow access, the App reads events from today through the next 7 days on your device to make suggestions, and writes to-dos with due dates as events. Event content is not sent to our servers.</li>
+<li><strong>Gmail:</strong> Only if you connect it, the App gets read-only access (gmail.readonly) from Google, connects directly from your device to Google, reads the subject and beginning of received messages, and makes suggestions with the on-device AI. Email content is never sent to or stored on our servers. Google credentials are kept only in the device keychain. You can disconnect at any time. The App's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</li>
+<li><strong>Camera, photos and files:</strong> Photos you take and files you pick are uploaded only when you attach them to a to-do. The camera is also used to scan the QR code when connecting a Mac.</li>
+<li><strong>Notes passed in via Shortcuts:</strong> Kept on the device and used for suggestions.</li>
+</ul>
+
+<h2>3. Purposes</h2>
+<ul>
+<li>To store your to-dos, notes and attachments and sync them with your devices, widgets and the Mac app</li>
+<li>To deliver requests to the AI agents you choose and show the results</li>
+<li>To show request progress on the Lock Screen and in the Dynamic Island</li>
+<li>To prevent unauthorized access and keep the service secure</li>
+<li>To respond to your inquiries</li>
+</ul>
+<p>We do not use this information for advertising, tracking, profiling, or training AI models.</p>
+
+<h2>4. Service providers</h2>
+<p>The App uses the following services. Please see their privacy policies for how they handle information.</p>
+<table>
+<tr><th>Supabase</th><td>Database, file storage, authentication and server functions. Data is stored in the Tokyo region (AWS ap-northeast-1).<br><a href="https://supabase.com/privacy">https://supabase.com/privacy</a></td></tr>
+<tr><th>Apple</th><td>Sign in with Apple, push notifications for Live Activities (APNs), on-device speech recognition and AI, Calendar.<br><a href="https://www.apple.com/legal/privacy/">https://www.apple.com/legal/privacy/</a></td></tr>
+<tr><th>Google</th><td>Sign in with Google, and Gmail read access (only if you connect it).<br><a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></td></tr>
+</table>
+
+<h2>5. AI tools and destinations you connect yourself</h2>
+<p>The App passes request content (to-do title, notes, your instructions and the thread) to the AI tools and destinations you choose and connect. This is done at your direction, and how the recipient handles the data is governed by that provider's terms and privacy policy.</p>
+<ul>
+<li><strong>AI on your Mac:</strong> The Mac app and runner run tools installed on your Mac, such as Claude Code (Anthropic), Codex (OpenAI), Gemini CLI (Google) and Cursor, under your own accounts. Request content is sent to those providers under your account. We have no agreement with those providers to share your data.</li>
+<li><strong>Webhook destinations:</strong> Request and to-do content is sent to URLs you configure (for example Grok Bot or Muse).</li>
+<li><strong>MCP:</strong> AI tools you connect can read and write your to-dos within the permissions you grant. You can revoke a connection at any time.</li>
+</ul>
+
+<h2>6. Sharing with third parties</h2>
+<p>Except as required by law, we do not share your personal information with third parties without your consent. The providers in Section 4 process data on our behalf only as needed to provide the App. The App contains no SDKs for advertising, analytics or tracking.</p>
+
+<h2>7. Security</h2>
+<p>All communication is encrypted (HTTPS). The database uses row-level access control so that only you can read and write your data. Webhook signing keys are stored encrypted, and your sign-in session and Google credentials are stored in the device keychain.</p>
+
+<h2>8. Retention and deletion</h2>
+<p>Server data is kept until you delete your account. When you delete a to-do or note, a deletion record used for syncing is kept for up to 30 days and then removed.</p>
+<p><strong>Deleting your account:</strong> In the App, tap "..." at the top right, then "Account" (アカウント), then "Delete Account" (アカウントを削除). This deletes your account and all of your data on our servers (to-dos, notes, attachments, requests and results, threads, connected computers, MCP connections, webhook settings, Live Activity tokens and access logs). This cannot be undone. If you cannot delete it from the App, contact us (Section 11).</p>
+<p>Data on the device (settings, suggestions, keychain sign-in data, and so on) is removed when you delete the App. Calendar events written by the App are removed when you turn off the calendar integration in Settings, Integrations (連携), Calendar.</p>
+
+<h2>9. Children</h2>
+<p>The App is not directed to children under 13.</p>
+
+<h2>10. Changes</h2>
+<p>We may update this policy when laws or the App's features change. We will announce significant changes on this page or in the App. The updated policy takes effect when it is posted here.</p>
+
+<h2>11. Contact</h2>
+<p>For questions about this policy, or to request access to, correction of, or deletion of your information, contact us.</p>
+<table>
+<tr><th>Company</th><td>AlphaByte, Inc. (株式会社アルファバイト)</td></tr>
+<tr><th>Address</th><td>Aoyama Marutake Bldg. 6F, 3-1-36 Minami-Aoyama, Minato-ku, Tokyo 107-0062, Japan</td></tr>
+<tr><th>Representative</th><td>Taishi Yamasaki</td></tr>
+<tr><th>Email</th><td><a href="mailto:taishi.dev@gmail.com">taishi.dev@gmail.com</a></td></tr>
+</table>
+
+<p>Effective date / last updated: November 9, 2026</p>
+
+<nav>
+<a href="support-en.html">Support</a>
+<a href="terms-en.html">Terms of Use</a>
+</nav>
+<footer>© 2026 AlphaByte, Inc.</footer>
+</main>
+</body>
+</html>
